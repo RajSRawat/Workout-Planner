@@ -55,9 +55,9 @@ const Contacts = () => {
                             onChange={e => setUser({ ...user, contacts: { ...user.contacts, trainer: e.target.value } })}
                         />
                     ) : (
-                        <div className="text-xl font-medium text-white">
+                        <a href={`tel:${user.contacts.trainer}`} className="text-xl font-medium text-white hover:text-blue-300 transition cursor-pointer">
                             {user.contacts.trainer}
-                        </div>
+                        </a>
                     )}
                 </div>
             </div>
