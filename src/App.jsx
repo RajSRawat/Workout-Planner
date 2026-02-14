@@ -10,7 +10,6 @@ import CalendarView from './components/CalendarView';
 import Profile from './components/Dashboard/Profile';
 import DietSupplement from './components/Dashboard/DietSupplement';
 import Store from './components/Dashboard/Store';
-import Store from './components/Dashboard/Store';
 import ExerciseLibrary from './components/Dashboard/ExerciseLibrary';
 import Contacts from './components/Dashboard/Contacts';
 
